@@ -6,7 +6,7 @@ pipeline {
         sh 'ls -la'
 	sh 'df -TPh'
 	sh 'whoami; hostname'
-	sh 'hostname -f; hostnae -i;w;free -m'
+	sh 'hostname -f; hostname -i;w;free -m'
       }
     }
     stage('Build') {
